@@ -1,34 +1,82 @@
-# Spring Boot + JWT Authentication
+# 🧑‍💻 Employee Records Management System
 
-This project is a simple Spring Boot application demonstrating how to implement JWT (JSON Web Token) authentication.
+## 📌 Project Overview
 
-## Features
+The **Employee Records Management System** (ERMS) is a comprehensive application designed to manage and centralize employee data across departments. This system facilitates efficient management of employee records, role-based access control, and an audit trail for all changes made to employee data.
 
-- User authentication using JWT.
-- Secure API endpoints with role-based authorization.
-- Token generation and validation.
-- User registration and login functionality.
+---
+
+## 🚀 Features
+
+### 1. **Employee Data Management**
+
+- Full Name
+- Employee ID
+- Job Title
+- Department
+- Hire Date
+- Employment Status
+- Contact Information
+- Address
+
+### 2. **User Roles & Permissions**
+
+- **HR Personnel**: Full CRUD (Create, Read, Update, Delete) operations on employee data.
+- **Managers**: View and update employee records within their department.
+- **Administrators**: Full access to the system, including configurations and managing user permissions.
+
+### 3. **Audit Trail**
+
+Track changes made to employee records, with information on who made the changes and when.
+
+### 4. **Search and Filtering**
+
+- Search employees by name, ID, department, or job title.
+- Filter based on employment status, department, and hire date.
+
+### 5. **Validation Rules**
+
+- Valid email formats.
+- Unique employee IDs.
   
-## Technologies Used
+### 6. **Reporting**
 
-- **Spring Boot** (2.x)
-- **Spring Security** (for authentication and authorization)
-- **JWT** (JSON Web Tokens)
-- **Spring Data JPA** (for database interaction)
-- **MySQL** (relational database)
+Generate reports on employee data.
 
-## Prerequisites
+---
 
-Before running the application, ensure you have the following installed:
+## ⚙️ Technologies Used
 
-- **Java 11** (or newer).
-- **Maven** (for building and running the application).
-- **Postman** or another API client to test the endpoints.
+- **Java 17** 🖥️
+- **Spring Boot 2.x** 🔧
+- **Spring Security** 🔒
+- **JWT** 🔑
+- **Spring Data JPA** 📊
+- **Oracle SQL** (or any other SQL database) 🗄️
+- **Docker** 🐋
+- **Swing** (for Desktop UI) 💻
+- **MigLayout** & **GridBagLayout** (for layout) 🧑‍🎨
+- **JUnit** & **Mockito** (for testing) 🧪
+- **Postman** (for API testing) 📱
 
-## Setup
+---
 
-### 1. Clone the Repository
+## 🛠️ Project Setup
+
+### 📋 Prerequisites
+
+Ensure the following are installed:
+
+- **Java 17** or newer.
+- **Docker** 🐳.
+- **Oracle SQL Database** (or any other RDBMS).
+- **Maven** (for building the project).
+- **Postman** for API testing.
+
+---
+
+### 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/spring-boot-jwt-auth.git
-cd spring-boot-jwt-auth
+git clone https://github.com/your-username/employee-records-management-system.git
+cd employee-records-management-system
