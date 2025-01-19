@@ -74,9 +74,3 @@ Ensure the following are installed:
 - **Postman** for API testing.
 
 ---
-
-### 📥 Clone the Repository
-
-```bash
-git clone https://github.com/your-username/employee-records-management-system.git
-cd employee-records-management-system
